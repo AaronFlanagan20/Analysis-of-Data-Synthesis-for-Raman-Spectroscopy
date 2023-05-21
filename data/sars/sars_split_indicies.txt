@@ -1,0 +1,32 @@
+Train sets = 103, 103, 103
+Hold sets =  209, 209, 209
+
+percentages rounded up or down threshold .5%
+class balance = SARS(pos):Healthy(neg) = 159:150 = 51:49%
+
+51% of 103 = 53
+49% of 103 = 50
+
+Run1
+Train
+	neg 2 - 51
+	pos 152 - 204
+
+holdout 52 - 151, 205 - 310
+
+
+Run2
+Train
+	neg 52 - 101
+	pos 205 - 257
+
+holdout 2 - 51, 102 - 204, 258-310
+
+
+Run3
+Train
+	neg 102 - 151
+	pos 258 - 310
+
+hold out 2 - 101, 152 - 257 
+	

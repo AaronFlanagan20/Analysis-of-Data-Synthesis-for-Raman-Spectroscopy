@@ -25,7 +25,7 @@ The *data* folder contains the original data and synthetic data, which is produc
 
 The *synthesis* folder contains the python code for generating the synthetic data sets for the three folds of original data, for both the *Weighted Blending* and *Variational Autoencoder (VAE)*
 
-The *experiments* folder contains the code to load the data, augment synthetic data and train the Deep Learning algorithms independantly. The user *must* update the code to select the appropriate local path for loading the data and storing results.
+The *experiments* folder contains the code to load the data, augment synthetic data and train the Deep Learning algorithms independantly. The user must update the code where appropriate to select the correct path for loading the data and storing results.
 
 
 # Contact Us
