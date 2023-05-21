@@ -1,0 +1,28 @@
+Train sets = 76,  76,  78
+Hold sets = 154, 154, 152
+
+Run1
+Train
+	pos 2-52
+	neg 156 - 180
+
+holdout
+	53-155. 181-231
+
+
+Run2
+Train
+	pos 53-103
+	neg 181-205
+
+holdout
+	2-52, 104-180, 206-231
+
+
+Run3
+Train
+	pos 104 - 155
+	neg 206 - 231
+
+hold out
+	2-103, 156-205
