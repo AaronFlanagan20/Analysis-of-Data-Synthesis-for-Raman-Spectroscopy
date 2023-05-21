@@ -1,14 +1,9 @@
 # A Comparative Analysis of Data Synthesis Techniques to Improve Classification Accuracy of Raman Spectroscopy Data
 
----
-
 # Installation
 
-The software dependancies for this project are open-source and managed using the Anaconda Distribution v23.1.0.
-
-An enviroment.yml is provided to import the required dependencies.
-
-Download [Anaconda](https://www.anaconda.com/download)
+The software dependancies for this project are open-source and managed using the [Anaconda](https://www.anaconda.com/download) Distribution v23.1.0.
+An enviroment.yml file is provided to create a custom environment and import the required dependencies.
 
 Dependencies:
 * Python v3.9.12
