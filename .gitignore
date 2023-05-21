@@ -1,0 +1,9 @@
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+__pycache__
+
+data/sars/blended/
+data/chlorinated/blended/
+
+data/sars/vae/
+data/chlorinated/vae/
