@@ -2,8 +2,9 @@
 */.ipynb_checkpoints/*
 __pycache__
 
+# The synthetic files are too large, they can be generated locally and stored on disk.
 data/sars/blended/
-data/chlorinated/blended/
-
 data/sars/vae/
+
+data/chlorinated/blended/
 data/chlorinated/vae/
