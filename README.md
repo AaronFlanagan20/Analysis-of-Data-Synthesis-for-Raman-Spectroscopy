@@ -2,12 +2,12 @@
 
 # Installation
 
-The software dependancies for this project are open-source and managed using the [Anaconda](https://www.anaconda.com/download) Distribution v23.1.0.
-An enviroment.yml file is provided to create a custom environment and import the required dependencies.
+The software dependencies for this project are open-source and managed using the [Anaconda](https://www.anaconda.com/download) Distribution v23.1.0.
+An environment file is provided to create a custom environment and import the required dependencies.
 
 Dependencies:
 * Python v3.9.12
-* Tensorflow v2.9.1
+* TensorFlow v2.9.1
 * Keras v2.9.0
 * NumPy v1.21.5
 * Pandas v1.4.3
@@ -20,7 +20,7 @@ The *data* folder contains the original data and synthetic data, which is produc
 
 The *synthesis* folder contains the python code for generating the synthetic data sets for the three folds of original data, for both the *Weighted Blending* and *Variational Autoencoder (VAE)*. The data will be stored in folders named "blended" and "vae" located under the *data* directory.
 
-The *experiments* folder contains the code to load the data, augment synthetic data and train the Deep Learning algorithms independantly. The user must update the code where appropriate to select the correct path for loading the data and storing results.
+The *experiments* folder contains the code to load the data, augment synthetic data and train the Deep Learning algorithms independently. The user must update the code where appropriate to select the correct path for loading the data and storing results.
 
 
 # Contact Us
