@@ -16,7 +16,7 @@ Dependencies:
 
 This repository contains three folders required to reproduce the results.
 
-The *data* folder contains the original data and synthetic data, which is produced from the *synthesis* folder. Text files including row (index) numbers are provided, which indicates the portion of the original data that compose each training fold. This was process was done manually to insure uniqueness and a maintained class prior probability in each fold.
+The *data* folder contains the original data and synthetic data, which is produced from the *synthesis* folder. Text files including row (index) numbers are provided, which indicates the portion of the original data that compose each training fold. This process was done manually to ensure uniqueness, and a maintained class prior probability in each fold.
 
 The *synthesis* folder contains the python code for generating the synthetic data sets for the three folds of original data, for both the *Weighted Blending* and *Variational Autoencoder (VAE)*. The data will be stored in folders named "blended" and "vae" located under the *data* directory.
 
