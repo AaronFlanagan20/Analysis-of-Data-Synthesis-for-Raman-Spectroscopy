@@ -1,18 +1,13 @@
 # A Comparative Analysis of Data Synthesis Techniques to Improve Classification Accuracy of Raman Spectroscopy Data
 
----
-
 # Installation
 
-The software dependancies for this project are open-source and managed using the Anaconda Distribution v23.1.0.
-
-An enviroment.yml is provided to import the required dependencies.
-
-Download [Anaconda](https://www.anaconda.com/download)
+The software dependencies for this project are open-source and managed using the [Anaconda](https://www.anaconda.com/download) Distribution v23.1.0.
+An environment file is provided to create a custom environment and import the required dependencies.
 
 Dependencies:
 * Python v3.9.12
-* Tensorflow v2.9.1
+* TensorFlow v2.9.1
 * Keras v2.9.0
 * NumPy v1.21.5
 * Pandas v1.4.3
@@ -21,11 +16,11 @@ Dependencies:
 
 This repository contains three folders required to reproduce the results.
 
-The *data* folder contains the original data and synthetic data, which is produced from the *synthesis* folder. Text files including row (index) numbers are provided, which indicates the portion of the original data that compose each training fold. This was process was done manually to insure uniqueness and a maintained class prior probability in each fold.
+The *data* folder contains the original data and synthetic data, which is produced from the *synthesis* folder. Text files including row (index) numbers are provided, which indicates the portion of the original data that compose each training fold. This process was done manually to ensure uniqueness, and a maintained class prior probability in each fold.
 
 The *synthesis* folder contains the python code for generating the synthetic data sets for the three folds of original data, for both the *Weighted Blending* and *Variational Autoencoder (VAE)*. The data will be stored in folders named "blended" and "vae" located under the *data* directory.
 
-The *experiments* folder contains the code to load the data, augment synthetic data and train the Deep Learning algorithms independantly. The user must update the code where appropriate to select the correct path for loading the data and storing results.
+The *experiments* folder contains the code to load the data, augment synthetic data and train the Deep Learning algorithms independently. The user must update the code where appropriate to select the correct path for loading the data and storing results.
 
 
 # Contact Us
