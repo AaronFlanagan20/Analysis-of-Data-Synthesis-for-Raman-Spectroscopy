@@ -8,3 +8,6 @@ data/sars/vae/
 
 data/chlorinated/blended/
 data/chlorinated/vae/
+
+figs/
+results/
