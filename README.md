@@ -25,7 +25,7 @@ The *experiments* folder contains the code to load the data, augment synthetic d
 
 # Contact Us
 For any questions related to this work please contact the authors:
-* A.flanagan18@universityofgalway.ie
+* aaron.flanagan@universityofgalway.ie | aaronflanagan044@hotmail.com
 * frank.glavin@universityofgalway.ie
 
 # Acknowledgements
